@@ -1,0 +1,19 @@
+{
+  "name": "counter-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && powershell -Command \"Rename-Item -Path 'public/index.html' -NewName './index.php'\"",
+    "preview": "vite preview",
+    "serve": "php -S localhost:8000 -t public"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.89.2",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0"
+  }
+}
