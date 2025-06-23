@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta description="Click Counter - Design to Code"/>
     <title>Counter Code</title>
-    <script type="module" crossorigin src="/assets/index-D8lHV1cW.js"></script>
+    <script type="module" crossorigin src="/assets/index-3lNiGtHy.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-DPdphBwG.css">
   </head>
   <body>
     <div class="foo">Test</div>
+    <div class="counter"></div>
   </body>
 </html>
